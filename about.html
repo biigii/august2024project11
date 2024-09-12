@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>about</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./about.html">about</a></li>
+          <li><a href="./contact.html">contact</a></li>
+          <li><a href="./gallery.html">gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>about</h1>
+    <main class="container">
+      <form>
+
+        <fieldset>
+          <legend>login form</legend>
+
+          <label>username
+            <input type="text" disabled>
+          </label>
+
+          <label>password
+            <input required type="password">
+          </label>
+
+          <label>email
+            <input required type="email">
+          </label>
+
+        </fieldset>
+
+        <br>
+
+        <label>username
+          <input type="text" placeholder="enter username">
+        </label>
+
+        <label>password
+          <input placeholder="enter password" type="password">
+        </label>
+
+
+        <hr>
+        <label for="username">username</label>
+        <input type="text" id="username">
+
+        <label for="pass">password</label>
+        <input id="pass" type="password">
+
+
+        <hr>
+        <input type="file" name="file">
+
+        <select name="fruit">
+          <option value="apple">apple</option>
+          <option selected value="orange">orange</option>
+          <option value="watermelon">watermelon</option>
+          <option value="lemon">lemon</option>
+        </select>
+
+        <br>
+
+        <input type="radio" name="weekend" value="fri">friday
+        <input type="radio" name="weekend" value="sat">saturday
+        <input checked type="radio" name="weekend" value="sun">sunday
+
+        <br>
+
+        <input type="checkbox" checked>friday
+        <input type="checkbox" checked>saturday
+        <input type="checkbox">sunday
+
+
+        <!-- very bad practice using <br> . do not do this! -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <textarea name="comments" cols="40" rows="12"></textarea>
+
+        <input type="text" name="username" value="" />
+        <input type="number" />
+        <input type="color" value="#ff3333" />
+        <input type="email" />
+        <input        <input type="file">
+          class=""
+          id=""
+          type="range"
+          name="range"
+          value=""
+          min="0"
+          max="100"
+        />
+        <input type="time">
+        <input type="date">
+        <input type="month">
+        <input type="search">
+        <input type="url">
+        <input type="datetime-local">
+        <input type="tel">        <input type="file">
+        <input type="week">
+
+        <input type="submit" name="submit" value="Send">
+      </form>
+    </main>
+  </body>
+</html>
